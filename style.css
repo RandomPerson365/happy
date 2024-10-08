@@ -1,0 +1,62 @@
+.yup ul {
+    list-style-type: none;
+    background-color: transparent;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+    display: flex;
+    }
+    
+    .yup li a {
+        color: rgb(231, 71, 8);
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        border: 2px solid transparent;
+    }
+    .yup li:hover a {
+    border-color: black;
+    border-left-color: rgb(245, 19, 132);
+    }
+    
+    .yup::after{
+        content:"";
+        display: table;
+        clear: both;
+    }
+    .yup a:hover{
+        background-color: rgb(78, 160, 228);
+    
+    }
+
+.yup li{
+    float: left;
+    width:calc(100% / 2);
+    }
+
+
+.hi2 { 
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+}
+.hi3 {
+    font-size: 50px;
+    color: rgb(2, 9, 10);
+}
+.lol{
+    background-image: url(/image/dark-blue-aesthetic-pictures-st7anvh3wpulg0ca.png);
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.message p{
+    text-align: center;
+   font-size: medium;
+   color:  rgb(235, 212, 8);
+}
